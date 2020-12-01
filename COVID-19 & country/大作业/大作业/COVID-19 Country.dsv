@@ -1,0 +1,159 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="4ba74e91-9944-4ca1-be39-e2b5c62a073d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>COVID-19 Country</ID>
+  <Name>COVID-19 Country</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>COVID-19 Country</DataSourceID>
+  <Schema>
+    <xs:schema id="COVID-19_x0020_Country" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="COVID-19_x0020_Country" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="a20725c4-cb8d-4216-8582-e97d1666992d">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_COVID19_Situation" msprop:design-time-name="dd1858cc-3099-4c0a-8ea9-88566422cde4" msprop:DbTableName="COVID19_Situation" msprop:FriendlyName="COVID19_Situation" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="country" msprop:design-time-name="afbd09b9-f410-438a-a222-9929f6a5fd33" msprop:DbColumnName="country" msprop:FriendlyName="country">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="continent" msprop:design-time-name="3c209a97-5f58-4502-a6c4-b19ba1d835db" msprop:DbColumnName="continent" msprop:FriendlyName="continent">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="date" msprop:design-time-name="30cc9be9-9dae-4485-a5bc-4eba498752e2" msprop:DbColumnName="date" msprop:FriendlyName="date">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="total_death_per_million" msprop:design-time-name="e2736fb6-b944-49fd-813d-8393a9558122" msprop:DbColumnName="total_death_per_million" msprop:FriendlyName="total_death_per_million" type="xs:decimal" />
+                  <xs:element name="total_cases_per_million" msprop:design-time-name="f951e356-bd84-4e4e-8be4-9fc91aaac77e" msprop:DbColumnName="total_cases_per_million" msprop:FriendlyName="total_cases_per_million" type="xs:decimal" />
+                  <xs:element name="population_density" msprop:design-time-name="80a1b689-211c-415a-b01f-87b8657baadd" msprop:DbColumnName="population_density" msprop:FriendlyName="population_density" type="xs:decimal" />
+                  <xs:element name="population" msprop:design-time-name="915f95b6-3e19-44d9-bc04-e386115a76af" msprop:DbColumnName="population" msprop:FriendlyName="population" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Democracy" msprop:design-time-name="eee7b151-047c-4cb3-82a6-6cbf67a2feac" msprop:DbTableName="Democracy" msprop:FriendlyName="Democracy" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="country" msprop:design-time-name="d67af9f9-ba37-4856-a4fd-e16418586509" msprop:DbColumnName="country" msprop:FriendlyName="country">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="democracy_index" msprop:design-time-name="a5d9eb0b-fb4e-4270-bab9-0bb8e6c69931" msprop:DbColumnName="democracy_index" msprop:FriendlyName="democracy_index" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Ecnomic_level" msprop:design-time-name="5cbbe820-1588-40e7-9925-5b50ae5387d4" msprop:DbTableName="Ecnomic_level" msprop:FriendlyName="Ecnomic_level" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="country" msprop:design-time-name="b0d000a9-0205-4816-a852-328b075a7b73" msprop:DbColumnName="country" msprop:FriendlyName="country">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="gdp_per_capita" msprop:design-time-name="1ad51218-c539-4bdc-baa2-fdff0bb98b76" msprop:DbColumnName="gdp_per_capita" msprop:FriendlyName="gdp_per_capita" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Medical_level" msprop:design-time-name="b2818575-7dc8-4b90-894f-9c5cc9561d49" msprop:DbTableName="Medical_level" msprop:FriendlyName="Medical_level" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="country" msprop:design-time-name="904dec83-9c43-426c-b906-5e835134b698" msprop:DbColumnName="country" msprop:FriendlyName="country">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="HAQ" msprop:design-time-name="973743fb-a96c-4290-b1cb-2949b432ba62" msprop:DbColumnName="HAQ" msprop:FriendlyName="HAQ" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Population_density" msprop:design-time-name="c26eb6cc-5c6c-4539-8235-afe64b5d949e" msprop:DbTableName="Population_density" msprop:FriendlyName="Population_density" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="country" msprop:design-time-name="583c4191-28cf-49ff-ae8b-482dc108a861" msprop:DbColumnName="country" msprop:FriendlyName="country">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="population_density" msprop:design-time-name="95fdb01b-0096-4a79-b8d0-9270516f5a23" msprop:DbColumnName="population_density" msprop:FriendlyName="population_density" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Tests_abliity" msprop:design-time-name="67746a5a-08f1-468c-9e1d-4eb2f4d6864b" msprop:DbTableName="Tests_abliity" msprop:FriendlyName="Tests_abliity" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="country" msprop:design-time-name="6a77f4d1-67a4-400e-9347-463688d9cfee" msprop:DbColumnName="country" msprop:FriendlyName="country">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="test_number" msprop:design-time-name="ba73ee16-161c-4a45-8cc7-a4d6513e6757" msprop:DbColumnName="test_number" msprop:FriendlyName="test_number" type="xs:decimal" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <COVID-19_x0020_Country xmlns="" />
+  </Schema>
+</DataSourceView>
