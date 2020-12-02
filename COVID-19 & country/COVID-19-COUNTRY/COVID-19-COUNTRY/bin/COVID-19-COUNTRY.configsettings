@@ -12,19 +12,19 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Tests Ability</ID>
-      </Dimension>
-      <Dimension>
         <ID>Medical Level</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Economic Level</ID>
       </Dimension>
       <Dimension>
         <ID>Population Density</ID>
       </Dimension>
       <Dimension>
         <ID>Democracy</ID>
+      </Dimension>
+      <Dimension>
+        <ID>TEST Ability</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Economical Level</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2814" scrolltop="-2901" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="23791" y="12044" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2814" scrolltop="-2901" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21251" y="12044" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="018600009001905f010004cbcecce5" />
             </font>
@@ -201,19 +201,6 @@
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="2586d053-4593-4d54-bb72-8efff9974709">
-      <ID>Tests Ability</ID>
-      <Name>Tests Ability</Name>
-      <DimensionID>Tests Ability</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="faa19f80-12da-4415-9070-ee11a9210672">
-          <AttributeID>Country</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="c79f930f-ff63-4fcc-9606-c59fd9d78002">
-          <AttributeID>Test Number</AttributeID>
-        </Attribute>
-      </Attributes>
-    </Dimension>
     <Dimension dwd:design-time-name="884a2843-cc71-4988-b72f-7f4819e42e50">
       <ID>Medical Level</ID>
       <Name>Medical Level</Name>
@@ -227,19 +214,6 @@
         </Attribute>
       </Attributes>
     </Dimension>
-    <Dimension dwd:design-time-name="2bc82718-7fb1-4d0f-ae7d-b1fe43fb9721">
-      <ID>Economic Level</ID>
-      <Name>Economic Level</Name>
-      <DimensionID>Economic Level</DimensionID>
-      <Attributes>
-        <Attribute dwd:design-time-name="d24cb2eb-aaae-4fd0-b7a9-1d691f9cad17">
-          <AttributeID>Country</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="5486d27f-564f-4e0d-847e-3424054226df">
-          <AttributeID>GDP</AttributeID>
-        </Attribute>
-      </Attributes>
-    </Dimension>
     <Dimension dwd:design-time-name="b2178df1-89e1-44fd-ab05-c8d52911dfa3">
       <ID>Democracy</ID>
       <Name>Democracy</Name>
@@ -250,6 +224,38 @@
         </Attribute>
         <Attribute dwd:design-time-name="61fc8055-be69-4622-a60c-0c933f095298">
           <AttributeID>Democracy Index</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e4fa2747-fc1d-4b5a-8acf-27beb4154573">
+      <ID>TEST Ability</ID>
+      <Name>TEST Ability</Name>
+      <DimensionID>TEST Ability</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1fe78f82-3084-4f65-bcb7-df36a8d7121f">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1ecddb33-cd48-47fe-a87e-3e951ecb6ad7">
+          <AttributeID>Population</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="89cf3444-0be3-48f9-8a61-06eae2a693e4">
+          <AttributeID>Test Number</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3649919b-e526-42f7-a87b-c38246796072">
+      <ID>Economical Level</ID>
+      <Name>Economical Level</Name>
+      <DimensionID>Economical Level</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="bab8cba0-9097-4454-8481-01d337672060">
+          <AttributeID>Country</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="920c15eb-2f5d-4958-804d-7505e4ae6faa">
+          <AttributeID>Population</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="838097b2-c66f-4e7c-af0c-ec3f85983a79">
+          <AttributeID>GDP</AttributeID>
         </Attribute>
       </Attributes>
     </Dimension>
@@ -285,6 +291,28 @@
             </Source>
           </Source>
         </Measure>
+        <Measure dwd:design-time-name="f7009776-e129-4d1e-8ae6-6524f96e6585">
+          <ID>Population Density</ID>
+          <Name>Population Density</Name>
+          <Source dwd:design-time-name="0b5150eb-fd03-4e12-ab3f-83fe9a509142">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="521c4ea9-9ee3-4ee2-9ce1-d998dc557390">
+              <TableID>dbo_COVID-19_situation</TableID>
+              <ColumnID>population_density</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1fb40ff4-8eaa-4ec8-ae82-dc32035817ed">
+          <ID>Population</ID>
+          <Name>Population</Name>
+          <Source dwd:design-time-name="9e8a6bd0-9324-48fb-be94-887bc33d21e2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="49dda915-635b-45ef-8666-366ffbfbed7d">
+              <TableID>dbo_COVID-19_situation</TableID>
+              <ColumnID>population</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
@@ -299,25 +327,6 @@
                   <DataType>WChar</DataType>
                   <DataSize>50</DataSize>
                   <Source xsi:type="ColumnBinding" dwd:design-time-name="44d442f1-4443-4735-97f2-c8aab93bc233">
-                    <TableID>dbo_COVID-19_situation</TableID>
-                    <ColumnID>country</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="8f64ee11-ca1f-407f-9f16-cef85e6b5f4c">
-          <CubeDimensionID>Tests Ability</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="750b5d00-d4d3-4456-ad8b-7b5ef815570e">
-              <AttributeID>Country</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="9aaa1b69-8439-40bf-8316-d0b66275ef6d">
-                  <DataType>WChar</DataType>
-                  <DataSize>50</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ec058cc8-6bc5-49b0-b4fa-e860d0732013">
                     <TableID>dbo_COVID-19_situation</TableID>
                     <ColumnID>country</ColumnID>
                   </Source>
@@ -346,25 +355,6 @@
             </Attribute>
           </Attributes>
         </Dimension>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b532b9d9-0fb2-4ab5-a640-76d7e50525ee">
-          <CubeDimensionID>Economic Level</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="50404ae4-d859-4e67-997d-73b7ebd11778">
-              <AttributeID>Country</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="a199dea8-313e-48bd-a78c-956acefaad7a">
-                  <DataType>WChar</DataType>
-                  <DataSize>50</DataSize>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4b6ac97a-d2f9-46c7-8c9e-0e42bc75e69a">
-                    <TableID>dbo_COVID-19_situation</TableID>
-                    <ColumnID>country</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5ace5e10-7284-48d9-a96a-ed2a4b525c89">
           <CubeDimensionID>Democracy</CubeDimensionID>
           <Attributes>
@@ -384,6 +374,44 @@
             </Attribute>
           </Attributes>
         </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="46a717bc-11af-4d0a-958e-8b6cd9ed2217">
+          <CubeDimensionID>TEST Ability</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c3ef4303-42ef-43d6-a534-2ff12a50e587">
+              <AttributeID>Country</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f01e8be9-ebd6-4d3d-9c65-bc70d0e2091c">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ccb454f5-bb24-4ad3-b49c-6bd65c89d4ec">
+                    <TableID>dbo_COVID-19_situation</TableID>
+                    <ColumnID>country</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="db63fbeb-927a-4b7a-b78d-987912982762">
+          <CubeDimensionID>Economical Level</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cfd44b3c-1fe6-42cb-b888-1e9fb79afc75">
+              <AttributeID>Country</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="eb86fe90-c597-4965-99b3-34b3a7dd2191">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f151ec42-eea0-4501-9a0d-5a9f5fd3098d">
+                    <TableID>dbo_COVID-19_situation</TableID>
+                    <ColumnID>country</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
       </Dimensions>
       <Partitions />
     </MeasureGroup>
@@ -391,4 +419,38 @@
   <Source dwd:design-time-name="12ce4c47-95fb-445c-839a-0627f9e965a5">
     <DataSourceViewID>COVID-19</DataSourceViewID>
   </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="d3639f72-ec53-4c8b-9265-d0f3c8881d5a">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+CALCULATE 命令控制该多维数据集中叶单元的聚合。
+如果删除或修改该 CALCULATE 命令，会影响该多维数据集内的数据。
+只有手动指定如何聚合该多维数据集时才编辑该命令。
+*/
+CALCULATE;   
+CREATE MEMBER CURRENTCUBE.[Measures].GDP_per_person
+ AS [Economical Level].[GDP]/[Economical Level].[Population], 
+FORMAT_STRING = "Standard", 
+NON_EMPTY_BEHAVIOR = { [Total Cases Per Million], [Total Deaths Per Million] }, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'COVID-19 Situation'  ;    
+
+CREATE MEMBER CURRENTCUBE.[Measures].Test_RATE
+ AS [TEST Ability].[Test Number]/[TEST Ability].[Population], 
+FORMAT_STRING = "Standard", 
+NON_EMPTY_BEHAVIOR = { [Total Cases Per Million], [Total Deaths Per Million] }, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'COVID-19 Situation'  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].HAQ_DE
+ AS [Democracy].[Democracy Index]*[Medical Level].[HAQ Index], 
+FORMAT_STRING = "Standard", 
+NON_EMPTY_BEHAVIOR = { [Total Cases Per Million], [Total Deaths Per Million] }, 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'COVID-19 Situation'  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
 </Cube>

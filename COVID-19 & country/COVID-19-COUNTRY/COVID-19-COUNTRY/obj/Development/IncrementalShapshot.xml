@@ -33,23 +33,9 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>qmE8w+u0hSsG0MilKTlK6FbF1L8=2020/12/2 17:33:132020/12/2 17:33:13</TimeStamp>
-        <ID>
-          <String>Tests Ability</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
         <TimeStamp>IsvI2HubQps42n86uYF7x/WI87g=2020/12/2 17:33:272020/12/2 17:33:26</TimeStamp>
         <ID>
           <String>Medical Level</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>6fp9rqnOR5a680oz0yZ1yZp68R8=2020/12/2 17:33:422020/12/2 17:33:41</TimeStamp>
-        <ID>
-          <String>Economic Level</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
@@ -67,8 +53,22 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Y3sOzgR9TrKS8sCsp9RzQxdCrjo=2020/12/2 22:09:022020/12/2 22:09:02</TimeStamp>
+        <ID>
+          <String>TEST Ability</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>q57aD377163JAw2z/7vVFFDYzmI=2020/12/2 22:21:462020/12/2 22:21:46</TimeStamp>
+        <ID>
+          <String>Economical Level</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>fqac9PDfgGzhxFPKDnD0C77HbSk=2020/12/2 18:02:472020/12/2 17:42:34qpMvNtke2GjXfZPqSX247e1fWlA=2020/12/2 17:42:352020/12/2 17:42:34</TimeStamp>
+        <TimeStamp>I2qMtMMc78LnmqZ52pBD9pLLpEA=2020/12/3 0:00:232020/12/2 17:42:34qpMvNtke2GjXfZPqSX247e1fWlA=2020/12/3 0:00:232020/12/2 17:42:34</TimeStamp>
         <ID>
           <String>COVID-19</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-12-02T10:59:48.693333Z</LastDeployed>
+  <LastDeployed>2020-12-02T16:00:28.62Z</LastDeployed>
 </DeploymentSnapshot>

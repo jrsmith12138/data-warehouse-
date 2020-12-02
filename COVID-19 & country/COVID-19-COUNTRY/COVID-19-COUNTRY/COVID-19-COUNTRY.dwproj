@@ -20,16 +20,8 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Tests Ability.dim</Name>
-      <FullPath>Tests Ability.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Medical Level.dim</Name>
       <FullPath>Medical Level.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Economic Level.dim</Name>
-      <FullPath>Economic Level.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>Population Density.dim</Name>
@@ -38,6 +30,14 @@
     <ProjectItem>
       <Name>Democracy.dim</Name>
       <FullPath>Democracy.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TEST Ability.dim</Name>
+      <FullPath>TEST Ability.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Economical Level.dim</Name>
+      <FullPath>Economical Level.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
