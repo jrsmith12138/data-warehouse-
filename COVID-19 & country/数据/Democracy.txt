@@ -1,68 +1,33 @@
 country,time,Democracy index
-Afghanistan,2019,28.5
-Albania,2019,58.9
-Algeria,2019,40.1
-Angola,2019,37.2
-Argentina,2019,70.2
-Armenia,2019,55.4
 Australia,2019,90.9
 Austria,2019,82.9
-Azerbaijan,2019,27.5
 Bahrain,2019,25.5
 Bangladesh,2019,58.8
 Belarus,2019,24.8
 Belgium,2019,76.4
-Benin,2019,50.9
-Bhutan,2019,53
 Bolivia,2019,48.4
-Bosnia and Herzegovina,2019,48.6
-Botswana,2019,78.1
 Brazil,2019,68.6
 Bulgaria,2019,70.3
-Burkina Faso,2019,40.4
-Burundi,2019,21.5
-Cambodia,2019,35.3
-Cameroon,2019,28.5
 Canada,2019,92.2
-Cape Verde,2019,77.8
-Central African Republic,2019,13.2
-Chad,2019,16.1
 Chile,2019,80.8
 China,2019,22.6
 Colombia,2019,71.3
-Comoros,2019,31.5
-Congo,2019,31.1
 Costa Rica,2019,81.3
 Cote d'Ivoire,2019,40.5
 Croatia,2019,65.7
-Cuba,2019,28.4
 Cyprus,2019,75.9
 Czech Republic,2019,76.9
 Denmark,2019,92.2
-Djibouti,2019,27.7
 Dominican Republic,2019,65.4
 Ecuador,2019,63.3
-Egypt,2019,30.6
 El Salvador,2019,61.5
-Equatorial Guinea,2019,19.2
-Eritrea,2019,23.7
 Estonia,2019,79
 Ethiopia,2019,34.4
-Fiji,2019,58.5
 Finland,2019,92.5
-France,2019,81.2
-Gabon,2019,36.1
-Gambia,2019,43.3
-Georgia,2019,54.2
 Germany,2019,86.8
 Ghana,2019,66.3
 Greece,2019,74.3
 Guatemala,2019,52.6
-Guinea,2019,31.4
-Guinea-Bissau,2019,26.3
-Guyana,2019,61.5
-Haiti,2019,45.7
-Honduras,2019,54.2
 Hungary,2019,66.3
 Iceland,2019,95.8
 India,2019,69
@@ -78,27 +43,16 @@ Jordan,2019,39.3
 Kazakhstan,2019,29.4
 Kenya,2019,51.8
 Kuwait,2019,39.3
-Kyrgyz Republic,2019,48.9
-Lao,2019,21.4
 Latvia,2019,74.9
-Lebanon,2019,43.6
-Lesotho,2019,65.4
-Liberia,2019,54.5
-Libya,2019,20.2
 Lithuania,2019,75
 Luxembourg,2019,88.1
 Macedonia,2019,59.7
 Madagascar,2019,56.4
 Malawi,2019,55
 Malaysia,2019,71.6
-Mali,2019,49.2
 Malta,2019,79.5
 Mauritania,2019,39.2
-Mauritius,2019,82.2
 Mexico,2019,60.9
-Moldova,2019,57.5
-Mongolia,2019,65
-Montenegro,2019,56.5
 Morocco,2019,51
 Mozambique,2019,36.5
 Myanmar,2019,35.5
@@ -106,16 +60,10 @@ Namibia,2019,64.3
 Nepal,2019,52.8
 Netherlands,2019,90.1
 New Zealand,2019,92.6
-Nicaragua,2019,35.5
-Niger,2019,32.9
 Nigeria,2019,41.2
-North Korea,2019,10.8
 Norway,2019,98.7
-Oman,2019,30.6
 Pakistan,2019,42.5
-Palestine,2019,38.9
 Panama,2019,70.5
-Papua New Guinea,2019,60.3
 Paraguay,2019,62.4
 Peru,2019,66
 Philippines,2019,66.4
@@ -128,39 +76,25 @@ Rwanda,2019,31.6
 Saudi Arabia,2019,19.3
 Senegal,2019,58.1
 Serbia,2019,64.1
-Sierra Leone,2019,48.6
 Singapore,2019,60.2
-Slovak Republic,2019,71.7
 Slovenia,2019,75
 South Africa,2019,72.4
 South Korea,2019,80
 Spain,2019,82.9
 Sri Lanka,2019,62.7
-Sudan,2019,27
-Suriname,2019,69.8
-Swaziland,2019,31.4
-Sweden,2019,93.9
 Switzerland,2019,90.3
-Syria,2019,14.3
 Taiwan,2019,77.3
-Tajikistan,2019,19.3
-Tanzania,2019,51.6
 Thailand,2019,63.2
-Timor-Leste,2019,71.9
 Togo,2019,33
 Trinidad and Tobago,2019,71.6
 Tunisia,2019,67.2
 Turkey,2019,40.9
-Turkmenistan,2019,17.2
 Uganda,2019,50.2
 Ukraine,2019,59
 United Arab Emirates,2019,27.6
 United Kingdom,2019,85.2
 United States,2019,79.6
 Uruguay,2019,83.8
-Uzbekistan,2019,20.1
-Venezuela,2019,28.8
 Vietnam,2019,30.8
-Yemen,2019,19.5
 Zambia,2019,50.9
 Zimbabwe,2019,31.6

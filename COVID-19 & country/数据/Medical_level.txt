@@ -1,93 +1,33 @@
 country,time,HAQ Index 
-Afghanistan,2015,32.5
-Albania,2015,78.2
-Algeria,2015,63.7
-American Samoa,2015,63.3
-Andean Latin America,2015,64.1
-Andorra,2015,94.6
-Angola,2015,40.7
-Antigua and Barbuda,2015,66.7
-Argentina,2015,68.4
-Armenia,2015,67.5
-Australasia,2015,89.1
 Australia,2015,89.8
 Austria,2015,88.2
-Azerbaijan,2015,64.5
 Bahrain,2015,79
 Bangladesh,2015,51.7
-Barbados,2015,66.8
 Belarus,2015,74.4
 Belgium,2015,87.9
-Belize,2015,58.3
-Benin,2015,43
-Bermuda,2015,79
-Bhutan,2015,52.7
 Bolivia,2015,59.2
-Bosnia and Herzegovina,2015,78.2
-Botswana,2015,51.1
 Brazil,2015,64.9
-Brunei,2015,70
 Bulgaria,2015,71.4
-Burkina Faso,2015,42.9
-Burundi,2015,40.4
-Cambodia,2015,50.7
-Cameroon,2015,44.4
 Canada,2015,87.6
-Cape Verde,2015,61.7
-Caribbean,2015,54.5
-Central African Republic,2015,28.6
-Central Asia,2015,59.9
-Central Europe,2015,77.1
-Central Latin America,2015,62.4
-Central Sub-Saharan Africa,2015,38.6
-Chad,2015,37.7
 Chile,2015,76
 China,2015,74.2
 Colombia,2015,67.8
-Comoros,2015,47.7
-Congo,2015,43.5
 Costa Rica,2015,72.9
 Cote d'Ivoire,2015,42.4
 Croatia,2015,81.6
-Cuba,2015,73.5
 Cyprus,2015,85.3
 Czech Republic,2015,84.8
-Democratic Republic of Congo,2015,40.4
 Denmark,2015,85.7
-Djibouti,2015,44.7
-Dominica,2015,58.1
 Dominican Republic,2015,62.5
-East Asia,2015,73.8
-Eastern Europe,2015,71.9
-Eastern Sub-Saharan Africa,2015,42.4
 Ecuador,2015,61.2
-Egypt,2015,61
 El Salvador,2015,64.4
-Equatorial Guinea,2015,48.4
-Eritrea,2015,38.1
 Estonia,2015,81.4
 Ethiopia,2015,44.2
-Fiji,2015,46.6
 Finland,2015,89.6
-France,2015,87.9
-Gabon,2015,51.4
-Gambia,2015,49.7
-Georgia,2015,62.1
 Germany,2015,86.4
 Ghana,2015,49.7
 Greece,2015,87
-Greenland,2015,71
-Grenada,2015,58.3
-Guam,2015,63.4
 Guatemala,2015,55.7
-Guinea,2015,38.6
-Guinea-Bissau,2015,36.3
-Guyana,2015,49.8
-Haiti,2015,38.5
-High-income,2015,83.1
-High-income Asia Pacific,2015,87.4
-High-income North America,2015,81.8
-Honduras,2015,53.9
 Hungary,2015,79.6
 Iceland,2015,93.6
 India,2015,44.8
@@ -102,33 +42,17 @@ Japan,2015,89
 Jordan,2015,76.5
 Kazakhstan,2015,61.1
 Kenya,2015,48.7
-Kiribati,2015,44.9
 Kuwait,2015,82
-Kyrgyzstan,2015,60.4
-Laos,2015,44.9
-Latin America and Caribbean,2015,61.9
 Latvia,2015,77.7
-Lebanon,2015,80
-Lesotho,2015,35.7
-Liberia,2015,45.4
-Libya,2015,69.9
 Lithuania,2015,76.6
 Luxembourg,2015,89.3
 Macedonia,2015,76
 Madagascar,2015,43.7
 Malawi,2015,47
 Malaysia,2015,66.6
-Maldives,2015,75.5
-Mali,2015,45.6
 Malta,2015,85.1
-Marshall Islands,2015,49.8
 Mauritania,2015,52
-Mauritius,2015,65.7
 Mexico,2015,62.6
-Micronesia (country),2015,53.8
-Moldova,2015,73.1
-Mongolia,2015,58.5
-Montenegro,2015,80.7
 Morocco,2015,61.3
 Mozambique,2015,43
 Myanmar,2015,48.4
@@ -136,86 +60,41 @@ Namibia,2015,53.7
 Nepal,2015,50.8
 Netherlands,2015,89.5
 New Zealand,2015,86.2
-Nicaragua,2015,64.3
-Niger,2015,41
 Nigeria,2015,51.3
-North Africa and Middle East,2015,58.4
-North Korea,2015,62.3
-Northern Mariana Islands,2015,71.8
 Norway,2015,90.5
-Oceania,2015,40.3
-Oman,2015,77.1
 Pakistan,2015,43.1
-Palestine,2015,70.5
 Panama,2015,64.4
-Papua New Guinea,2015,38.6
 Paraguay,2015,60.4
 Peru,2015,69.6
 Philippines,2015,52
 Poland,2015,79.6
 Portugal,2015,84.5
-Puerto Rico,2015,76.6
 Qatar,2015,85.2
 Romania,2015,74.4
 Russia,2015,71.7
 Rwanda,2015,47.8
-Saint Lucia,2015,62.5
-Saint Vincent and the Grenadines,2015,57.5
-Samoa,2015,62.1
-Sao Tome and Principe,2015,49.6
 Saudi Arabia,2015,79.4
 Senegal,2015,44.4
 Serbia,2015,75.4
-Seychelles,2015,66.1
-Sierra Leone,2015,41.3
 Singapore,2015,86.3
-Slovakia,2015,78.6
 Slovenia,2015,87.4
-Solomon Islands,2015,43.1
-Somalia,2015,34.2
 South Africa,2015,52
-South Asia,2015,44.4
 South Korea,2015,85.8
-South Sudan,2015,38.8
-Southeast Asia,2015,52.1
-Southern Latin America,2015,70
-Southern Sub-Saharan Africa,2015,49.2
 Spain,2015,89.6
 Sri Lanka,2015,72.8
-Sub-Saharan Africa,2015,42.2
-Sudan,2015,50.1
-Suriname,2015,56.7
-Swaziland,2015,41.9
-Sweden,2015,90.5
 Switzerland,2015,91.8
-Syria,2015,74.6
 Taiwan,2015,77.6
-Tajikistan,2015,58.6
-Tanzania,2015,49.9
 Thailand,2015,70.8
-The Bahamas,2015,63.9
-Timor,2015,51.6
 Togo,2015,44.3
-Tonga,2015,62.1
 Trinidad and Tobago,2015,62.1
-Tropical Latin America,2015,64.7
 Tunisia,2015,70.1
 Turkey,2015,76.2
-Turkmenistan,2015,58.1
 Uganda,2015,42.9
 Ukraine,2015,72.7
 United Arab Emirates,2015,72.2
 United Kingdom,2015,84.6
 United States,2015,81.3
-United States Virgin Islands,2015,70.2
 Uruguay,2015,72
-Uzbekistan,2015,62.3
-Vanuatu,2015,43.1
-Venezuela,2015,64.7
 Vietnam,2015,66.3
-Western Europe,2015,86.8
-Western Sub-Saharan Africa,2015,44.8
-World,2015,53.7
-Yemen,2015,49.6
 Zambia,2015,41.6
 Zimbabwe,2015,48.7

@@ -15,7 +15,6 @@ Colombia,4707099
 Costa Rica,242306
 Cote d'Ivoire,206457
 Croatia,649551
-Cuba,1002370
 Cyprus,563665
 Czech Republic,2852621
 Denmark,6492887
@@ -24,13 +23,11 @@ Ecuador,550021
 El Salvador,514708
 Estonia,422402
 Ethiopia,1580071
-Fiji,15217
 Finland,1766458
 Germany,26456866
 Ghana,567211
 Greece,2177279
 Guatemala,494291
-Hong Kong,3753969
 Hungary,1433008
 Iceland,204886
 India,128508389
@@ -53,7 +50,6 @@ Macedonia,300200
 Madagascar,92992
 Malawi,69398
 Malaysia,2472687
-Maldives,224443
 Malta,251746
 Mauritania,97537
 Mexico,2256435
@@ -81,7 +77,6 @@ Saudi Arabia,9113767
 Senegal,229767
 Serbia,1555000
 Singapore,4227877
-Slovakia,989948
 Slovenia,460224
 South Africa,5214036
 South Korea,2825300

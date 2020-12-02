@@ -68,7 +68,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>RpsOD+uiRqvvjnJJqUvnZlrkKpo=2020/12/2 17:42:352020/12/2 17:42:34qpMvNtke2GjXfZPqSX247e1fWlA=2020/12/2 17:42:352020/12/2 17:42:34</TimeStamp>
+        <TimeStamp>fqac9PDfgGzhxFPKDnD0C77HbSk=2020/12/2 18:02:472020/12/2 17:42:34qpMvNtke2GjXfZPqSX247e1fWlA=2020/12/2 17:42:352020/12/2 17:42:34</TimeStamp>
         <ID>
           <String>COVID-19</String>
         </ID>
@@ -84,6 +84,6 @@
     <Granularity>Coarse</Granularity>
   </Snapshot>
   <AssemblyLocations />
-  <ProcessingComplete>false</ProcessingComplete>
-  <LastDeployed>2020-12-02T09:52:22.016667Z</LastDeployed>
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2020-12-02T10:59:48.693333Z</LastDeployed>
 </DeploymentSnapshot>

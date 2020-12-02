@@ -1,73 +1,33 @@
 country,time, GDP 
-Afghanistan,2016,1929
-Africa,2016,4680
-Albania,2016,11285
-Algeria,2016,13328
-Angola,2016,8397
-Argentina,2016,18695
-Armenia,2016,9588
 Australia,2016,44783
 Austria,2016,45010
-Azerbaijan,2016,15296
 Bahrain,2016,39773
 Bangladesh,2016,3250
-Barbados,2016,10160
 Belarus,2016,18766
 Belgium,2016,39733
-Benin,2016,2166
 Bolivia,2016,6118
-Bosnia and Herzegovina,2016,10576
-Botswana,2016,15015
 Brazil,2016,13479
 Bulgaria,2016,17953
-Burkina Faso,2016,1561
-Burundi,2016,692
-Cambodia,2016,3307
-Cameroon,2016,2803
 Canada,2016,42969
-Cape Verde,2016,6512
-Central African Republic,2016,619
-Chad,2016,2192
 Chile,2016,21446
 China,2016,12320
 Colombia,2016,12963
-Comoros,2016,1713
-Congo,2016,4310
 Costa Rica,2016,13986
 Cote d'Ivoire,2016,3664
 Croatia,2016,21625
 Cyprus,2016,26540
 Czech Republic,2016,31089
-Czechoslovakia,2016,30118
-Democratic Republic of Congo,2016,836
 Denmark,2016,45141
-Djibouti,2016,3394
-Dominica,2016,9773
 Dominican Republic,2016,14088
-East Asia,2016,10287
-Eastern Europe,2016,19355
 Ecuador,2016,10536
-Egypt,2016,11430
 El Salvador,2016,8335
-Equatorial Guinea,2016,31486
 Estonia,2016,26173
 Ethiopia,2016,1659
 Finland,2016,38335
-Former USSR,2016,18105
-Former Yugoslavia,2016,16361
-France,2016,38758
-Gabon,2016,14334
-Gambia,2016,1950
-Georgia,2016,10483
 Germany,2016,46841
 Ghana,2016,3753
 Greece,2016,24689
 Guatemala,2016,7137
-Guinea,2016,1668
-Guinea-Bissau,2016,1354
-Haiti,2016,1636
-Honduras,2016,4435
-Hong Kong,2016,47043
 Hungary,2016,24047
 Iceland,2016,42980
 India,2016,5961
@@ -83,28 +43,16 @@ Jordan,2016,11748
 Kazakhstan,2016,23399
 Kenya,2016,3214
 Kuwait,2016,67798
-Kyrgyzstan,2016,6065
-Laos,2016,6324
-Latin America,2016,13470
 Latvia,2016,23362
-Lebanon,2016,12683
-Lesotho,2016,3015
-Liberia,2016,764
-Libya,2016,8096
 Lithuania,2016,26182
 Luxembourg,2016,69057
 Macedonia,2016,13887
 Madagascar,2016,1307
 Malawi,2016,950
 Malaysia,2016,22687
-Mali,2016,1604
 Malta,2016,27612
 Mauritania,2016,3307
-Mauritius,2016,18852
 Mexico,2016,15803
-Moldova,2016,5851
-Mongolia,2016,11105
-Montenegro,2016,18244
 Morocco,2016,7613
 Mozambique,2016,1288
 Myanmar,2016,6139
@@ -112,11 +60,8 @@ Namibia,2016,11741
 Nepal,2016,2586
 Netherlands,2016,49254
 New Zealand,2016,34040
-Nicaragua,2016,4872
-Niger,2016,906
 Nigeria,2016,5323
 Norway,2016,76397
-Oman,2016,36883
 Pakistan,2016,5250
 Panama,2016,21538
 Paraguay,2016,8605
@@ -124,52 +69,32 @@ Peru,2016,11540
 Philippines,2016,7223
 Poland,2016,26002
 Portugal,2016,27726
-Puerto Rico,2016,35082
 Qatar,2016,139783
 Romania,2016,18913
 Russia,2016,23064
 Rwanda,2016,1741
-Saint Lucia,2016,10737
-Sao Tome and Principe,2016,3640
 Saudi Arabia,2016,47474
 Senegal,2016,2544
 Serbia,2016,14001
-Seychelles,2016,24856
-Sierra Leone,2016,1070
 Singapore,2016,67180
-Slovakia,2016,26713
 Slovenia,2016,28761
 South Africa,2016,11949
 South Korea,2016,36151
 Spain,2016,31556
 Sri Lanka,2016,11118
-Sudan,2016,3750
-Swaziland,2016,7641
-Sweden,2016,44371
 Switzerland,2016,61844
-Syria,2016,3557
 Taiwan,2016,42304
-Tajikistan,2016,3544
-Tanzania,2016,2518
 Thailand,2016,14341
 Togo,2016,1515
 Trinidad and Tobago,2016,29358
 Tunisia,2016,10621
 Turkey,2016,18784
-Turkmenistan,2016,22328
 Uganda,2016,1909
 Ukraine,2016,9694
 United Arab Emirates,2016,70284
 United Kingdom,2016,39162
 United States,2016,53015
 Uruguay,2016,19896
-Uzbekistan,2016,9726
-Venezuela,2016,13159
 Vietnam,2016,6031
-Western Asia,2016,20891
-Western Europe,2016,40364
-Western Offshoots,2016,51342
-World,2016,14574
-Yemen,2016,2199
 Zambia,2016,3538
 Zimbabwe,2016,1729
