@@ -38,7 +38,6 @@ Caribbean,2015,54.5
 Central African Republic,2015,28.6
 Central Asia,2015,59.9
 Central Europe,2015,77.1
-"Central Europe, Eastern Europe, and Central Asia",2015,68.5
 Central Latin America,2015,62.4
 Central Sub-Saharan Africa,2015,38.6
 Chad,2015,37.7
@@ -179,7 +178,6 @@ South Asia,2015,44.4
 South Korea,2015,85.8
 South Sudan,2015,38.8
 Southeast Asia,2015,52.1
-"Southeast Asia, East Asia, and Oceania",2015,63.5
 Southern Latin America,2015,70
 Southern Sub-Saharan Africa,2015,49.2
 Spain,2015,89.6

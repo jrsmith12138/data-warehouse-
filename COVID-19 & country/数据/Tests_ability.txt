@@ -34,17 +34,14 @@ Hong Kong,3753969
 Hungary,1433008
 Iceland,204886
 India,128508389
-"India, people tested",525667
 Indonesia,3456835
 Iran,5667538
 Iraq,3182819
 Ireland,1846444
 Israel,5254730
 Italy,19724527
-"Italy, people tested",11882821
 Jamaica,107243
 Japan,3526891
-"Japan, people tested (incl. non-PCR)",3142664
 Jordan,2268734
 Kazakhstan,4071191
 Kenya,793026
@@ -75,7 +72,6 @@ Paraguay,408717
 Peru,1133086
 Philippines,5073862
 Poland,5592687
-"Poland, samples tested",5802239
 Portugal,4033000
 Qatar,1067758
 Romania,3808279
@@ -85,14 +81,12 @@ Saudi Arabia,9113767
 Senegal,229767
 Serbia,1555000
 Singapore,4227877
-"Singapore, people tested",1156728
 Slovakia,989948
 Slovenia,460224
 South Africa,5214036
 South Korea,2825300
 Spain,16201672
 Sri Lanka,713652
-"Sweden, people tested",597850
 Switzerland,2487943
 Taiwan,107003
 Thailand,1215725
@@ -105,7 +99,6 @@ Ukraine,4062868
 United Arab Emirates,15405022
 United Kingdom,34546200
 United States,171122505
-"United States, units unclear (incl. non-PCR)",173719264
 Uruguay,385965
 Vietnam,1260799
 Zambia,346012

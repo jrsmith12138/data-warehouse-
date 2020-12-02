@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>COVID-19-COUNTRY</Database>
+    <Server>localhost</Server>
+    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>u2oiQip6osZv0yteS5hI+uTMMLw=2020/12/2 17:46:042020/12/2 16:42:22</TimeStamp>
+        <ID>
+          <String>COVID-19</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>gjJv7Swx+pNTkfgT57ZPBF5tzt8=2020/12/2 17:41:532020/12/2 17:16:10</TimeStamp>
+        <ID>
+          <String>COVID-19</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>qmE8w+u0hSsG0MilKTlK6FbF1L8=2020/12/2 17:33:132020/12/2 17:33:13</TimeStamp>
+        <ID>
+          <String>Tests Ability</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>IsvI2HubQps42n86uYF7x/WI87g=2020/12/2 17:33:272020/12/2 17:33:26</TimeStamp>
+        <ID>
+          <String>Medical Level</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>6fp9rqnOR5a680oz0yZ1yZp68R8=2020/12/2 17:33:422020/12/2 17:33:41</TimeStamp>
+        <ID>
+          <String>Economic Level</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Awv/zkDanDAiX9ZsoQXYhMuO2jk=2020/12/2 17:34:372020/12/2 17:34:37</TimeStamp>
+        <ID>
+          <String>Population Density</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>GwPXdDO8aCWYZVj79WHUEWR785g=2020/12/2 17:42:042020/12/2 17:42:04</TimeStamp>
+        <ID>
+          <String>Democracy</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>RpsOD+uiRqvvjnJJqUvnZlrkKpo=2020/12/2 17:42:352020/12/2 17:42:34qpMvNtke2GjXfZPqSX247e1fWlA=2020/12/2 17:42:352020/12/2 17:42:34</TimeStamp>
+        <ID>
+          <String>COVID-19</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>dnp6pgrenWqxdR9AuR3hSzVMnfk=2020/12/2 15:19:212020/12/2 15:19:21</TimeStamp>
+      <ID>
+        <String>COVID-19-COUNTRY</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>false</ProcessingComplete>
+  <LastDeployed>2020-12-02T09:52:22.016667Z</LastDeployed>
+</DeploymentSnapshot>

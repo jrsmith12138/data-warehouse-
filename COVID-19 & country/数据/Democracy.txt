@@ -31,8 +31,7 @@ Chile,2019,80.8
 China,2019,22.6
 Colombia,2019,71.3
 Comoros,2019,31.5
-"Congo, Dem. Rep.",2019,11.3
-"Congo, Rep.",2019,31.1
+Congo,2019,31.1
 Costa Rica,2019,81.3
 Cote d'Ivoire,2019,40.5
 Croatia,2019,65.7
@@ -64,7 +63,6 @@ Guinea-Bissau,2019,26.3
 Guyana,2019,61.5
 Haiti,2019,45.7
 Honduras,2019,54.2
-"Hong Kong, China",2019,60.2
 Hungary,2019,66.3
 Iceland,2019,95.8
 India,2019,69
@@ -89,7 +87,7 @@ Liberia,2019,54.5
 Libya,2019,20.2
 Lithuania,2019,75
 Luxembourg,2019,88.1
-"Macedonia, FYR",2019,59.7
+Macedonia,2019,59.7
 Madagascar,2019,56.4
 Malawi,2019,55
 Malaysia,2019,71.6
