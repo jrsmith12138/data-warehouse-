@@ -21,5 +21,45 @@
         </Partition>
       </Partitions>
     </MeasureGroup>
+    <MeasureGroup>
+      <ID>Tests Ability</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a463782c-50c5-48b4-8fac-a0b42f5354d6">
+          <ID>Tests Ability</ID>
+          <Name>Tests Ability</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="9fdb5f19-e917-4750-a16d-d5ce3d512634">
+            <DataSourceViewID>COVID-19</DataSourceViewID>
+            <TableID>dbo_Tests_ability</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Economic Level</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="20bda938-d573-4bd5-8b42-ac216a56b22d">
+          <ID>Economic Level</ID>
+          <Name>Economic Level</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="14e2ab91-243d-4d13-b5bb-c22624f38525">
+            <DataSourceViewID>COVID-19</DataSourceViewID>
+            <TableID>dbo_Economic_level</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
   </MeasureGroups>
 </Cube>

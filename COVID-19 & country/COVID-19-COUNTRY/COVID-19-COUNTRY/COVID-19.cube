@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2814" scrolltop="-2901" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21251" y="12044" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2814" scrolltop="-805" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="21251" y="12044" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="018600009001905f010004cbcecce5" />
             </font>
@@ -167,7 +167,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-2901</Value>
+      <Value>-805</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -242,6 +242,11 @@
           <AttributeID>Test Number</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="50b42c89-8f62-4b0a-9eda-25b89a8a95e9">
+          <HierarchyID>层次结构</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
     <Dimension dwd:design-time-name="3649919b-e526-42f7-a87b-c38246796072">
       <ID>Economical Level</ID>
@@ -258,6 +263,11 @@
           <AttributeID>GDP</AttributeID>
         </Attribute>
       </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="b6421492-b0dd-453e-a2a1-3299da10cccf">
+          <HierarchyID>层次结构</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
     </Dimension>
   </Dimensions>
   <MeasureGroups>
@@ -415,6 +425,120 @@
       </Dimensions>
       <Partitions />
     </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="82c2e691-5e0d-47b2-9888-75711ac17f38">
+      <ID>Tests Ability</ID>
+      <Name>Tests Ability</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="03119d37-2a4e-4414-a6f7-3b72695d864c">
+          <ID>Test Number</ID>
+          <Name>Test Number</Name>
+          <Source dwd:design-time-name="ef75e52b-c6cd-47e8-8f96-5448168b237c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9c05a132-5144-4855-b33a-ebe2061a38ee">
+              <TableID>dbo_Tests_ability</TableID>
+              <ColumnID>Test_number</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9b8c8b3e-be85-4899-a2f1-ac5876e06a89">
+          <CubeDimensionID>TEST Ability</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d78e1d74-ffaf-4c2a-8b52-89a1243c7dd2">
+              <AttributeID>Test Number</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5ff42675-1af4-466b-b9b3-1e8985728675">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e41d366f-ac31-4493-b3fc-85f696ead214">
+                    <TableID>dbo_Tests_ability</TableID>
+                    <ColumnID>country</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="daa3fb8f-39a4-453a-8794-abbf1eb8aa21">
+              <AttributeID>Country</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="618197a5-98cd-40e5-8b79-ac953c06c3ff">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3eba27d1-5450-4ae8-a8e9-a35edcef68c1">
+                    <TableID>dbo_Tests_ability</TableID>
+                    <ColumnID>country</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="9f618ea5-507c-4725-b880-0e85786ca287">
+      <ID>Economic Level</ID>
+      <Name>Economic Level</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="155e9b8c-b045-41ef-8461-608a878acacc">
+          <ID>GDP</ID>
+          <Name>GDP</Name>
+          <Source dwd:design-time-name="85c126a5-8fc0-4c3d-aaaf-c12b0a869571">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b640c768-dabd-418c-9bb6-ea604b4db3ba">
+              <TableID>dbo_Economic_level</TableID>
+              <ColumnID>_x0020_GDP_x0020_</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7b3a7dd4-99a6-49bf-9aa1-c144aa5c0133">
+          <CubeDimensionID>Economical Level</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="af621299-ac49-4894-9a02-783e800da165">
+              <AttributeID>GDP</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="49a49536-9e62-41f7-9974-9018af02f9b7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5ff6fc8f-2e36-48bb-9c20-b1217da24a63">
+                    <TableID>dbo_Economic_level</TableID>
+                    <ColumnID>_x0020_GDP_x0020_</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="b754ad3e-47e7-415c-88aa-44b733a3bc91">
+              <AttributeID>Country</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="31db6906-43a6-49c8-b91d-d5fd13164ead">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c8b9fbef-39cc-44d4-a7a9-16443200b8ce">
+                    <TableID>dbo_Economic_level</TableID>
+                    <ColumnID>country</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="12ce4c47-95fb-445c-839a-0627f9e965a5">
     <DataSourceViewID>COVID-19</DataSourceViewID>
@@ -432,23 +556,18 @@ CALCULATE 命令控制该多维数据集中叶单元的聚合。
 如果删除或修改该 CALCULATE 命令，会影响该多维数据集内的数据。
 只有手动指定如何聚合该多维数据集时才编辑该命令。
 */
-CALCULATE;   
+CALCULATE;     
 CREATE MEMBER CURRENTCUBE.[Measures].GDP_per_person
- AS [Economical Level].[GDP]/[Economical Level].[Population], 
-FORMAT_STRING = "Standard", 
+ AS [Measures].[GDP]/[Measures].[Population], 
+FORMAT_STRING = "Currency", 
 NON_EMPTY_BEHAVIOR = { [Total Cases Per Million], [Total Deaths Per Million] }, 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'COVID-19 Situation'  ;    
+VISIBLE = 1  ;      
 
 CREATE MEMBER CURRENTCUBE.[Measures].Test_RATE
- AS [TEST Ability].[Test Number]/[TEST Ability].[Population], 
-FORMAT_STRING = "Standard", 
+ AS [Measures].[Test Number]/[Measures].[Population], 
+FORMAT_STRING = "Currency", 
 NON_EMPTY_BEHAVIOR = { [Total Cases Per Million], [Total Deaths Per Million] }, 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'COVID-19 Situation'  ; 
-CREATE MEMBER CURRENTCUBE.[Measures].HAQ_DE
- AS [Democracy].[Democracy Index]*[Medical Level].[HAQ Index], 
-FORMAT_STRING = "Standard", 
-NON_EMPTY_BEHAVIOR = { [Total Cases Per Million], [Total Deaths Per Million] }, 
-VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'COVID-19 Situation'  ; </Text>
+VISIBLE = 1  ; </Text>
         </Command>
       </Commands>
     </MdxScript>

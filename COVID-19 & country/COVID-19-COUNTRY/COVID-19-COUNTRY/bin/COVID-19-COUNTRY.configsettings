@@ -39,6 +39,22 @@
               </Partition>
             </Partitions>
           </MeasureGroup>
+          <MeasureGroup>
+            <ID>Tests Ability</ID>
+            <Partitions>
+              <Partition>
+                <ID>Tests Ability</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Economic Level</ID>
+            <Partitions>
+              <Partition>
+                <ID>Economic Level</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
         </MeasureGroups>
       </Cube>
     </Cubes>

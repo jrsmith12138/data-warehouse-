@@ -54,21 +54,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Y3sOzgR9TrKS8sCsp9RzQxdCrjo=2020/12/2 22:09:022020/12/2 22:09:02</TimeStamp>
+        <TimeStamp>eOI87J7CFz2GAGDg3BVe0ZcI+KE=2020/12/3 13:25:022020/12/2 22:09:02</TimeStamp>
         <ID>
           <String>TEST Ability</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>q57aD377163JAw2z/7vVFFDYzmI=2020/12/2 22:21:462020/12/2 22:21:46</TimeStamp>
+        <TimeStamp>YfHcpbIa/E0uwBjLSUzJc5wl5ww=2020/12/3 13:24:502020/12/2 22:21:46</TimeStamp>
         <ID>
           <String>Economical Level</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>I2qMtMMc78LnmqZ52pBD9pLLpEA=2020/12/3 0:00:232020/12/2 17:42:34qpMvNtke2GjXfZPqSX247e1fWlA=2020/12/3 0:00:232020/12/2 17:42:34</TimeStamp>
+        <TimeStamp>PcgzeXMbCQvTkoN94w+DVRRQNcI=2020/12/3 14:09:512020/12/2 17:42:34lJ7+so4SvTVAFLs019Vp5QwKJeE=2020/12/3 13:35:112020/12/2 17:42:34</TimeStamp>
         <ID>
           <String>COVID-19</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2020-12-02T16:00:28.62Z</LastDeployed>
+  <LastDeployed>2020-12-03T06:09:55.876667Z</LastDeployed>
 </DeploymentSnapshot>
